@@ -44,6 +44,6 @@ li {
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     body {
-        border: solid 10px hotpink;
+        border: solid 10px pink
     }
 }
