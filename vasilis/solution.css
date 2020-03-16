@@ -37,3 +37,8 @@ li {
         border: 10px solid hotpink;
     }
 }
+@media screen and (min-width: 1440px) {
+    body {
+        border: 10px solid black;
+    }
+}
