@@ -16,7 +16,7 @@ li {
 
 @media screen and (max-width: 375px) {
     body {
-      border:red;
+      border:red solid 10px;
     }
   }
 
@@ -24,26 +24,26 @@ li {
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
       body {
-          border: blue;
+          border: solid 10px blue;
       }
   }
 
 
 @media screen and (min-width: 426px) and (max-width: 786px) {
     body {
-        border: green;
+        border: solid 10px green;
     }
 }
 
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
     body {
-        border: yellow;
+        border: solid 10px yellow;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     body {
-        border: hotpink;
+        border: solid 10px hotpink;
     }
 }
