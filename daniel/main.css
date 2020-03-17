@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    border: 10px solid black;
+}
+
+main {
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    border: 10px solid red;
+}
+
+@media screen and (min-width: 376px) {
+    li {
+        border-color: blue;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    li {
+        border-color: green;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    li {
+        border-color: yellow;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    li {
+        border-color: hotpink;
+    }
+}
