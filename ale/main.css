@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    border: 10px solid black;
+}
+
+main {
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+      border:red solid 10px;
+    }
+  }
+
+  
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+      body {
+          border: solid 10px blue;
+      }
+  }
+
+
+@media screen and (min-width: 426px) and (max-width: 786px) {
+    body {
+        border: solid 10px green;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    body {
+        border: solid 10px yellow;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1440px) {
+    body {
+        border: solid 10px pink
+    }
+}
